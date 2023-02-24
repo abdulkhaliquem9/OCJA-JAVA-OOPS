@@ -91,8 +91,8 @@ Order of program
 	}
 
 ### - abstract Modifier is applicable only for class & methods only, but not for variables.
-	- abstract methods 
-		- are not implemented & has declaration but not implementation; child classes are responsible to provide implementation.
+    - abstract methods 
+	- are not implemented & has declaration but not implementation; child classes are responsible to provide implementation.
 		abstract public class Vehicle{
 			public drive(){}; // implemented  
 			public abstract int getNoOfWheels(); // not implemented
