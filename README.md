@@ -251,24 +251,24 @@ Note 9: If we are not implementing all the methods in ServiceProvider then this 
 	}
 		
 
-				   SUN
+				   	SUN
 					|
 				Servlet API (interface)
 					|
-	________________|__________________________
-	|			| 			|		|
-	Tomcat		Resin		Jetty	Web Logic
+			________________|_________________________________________________
+			|			| 			|		|
+			Tomcat			Resin			Jetty		Web Logic
 
 Another example is that the DataBase vendors like MySQL, Oracle, Postgres etc., need to implement
 the JDBC API interface in their respective drivers in order to communicate with Java application.
 
-					JAVA APP
+						JAVA APP
 						|
 					JDBC API (Interface)
 						|
-	________________________________________________________________
+	________________________________________________________________________________________________________________________
 	|					|						|				|
-    Oracle Driver		MySQL Driver			PostGres Driver
+    Oracle Driver				MySQL Driver					PostGres Driver
 	
 - Any requirement specification / any contract between client and the service provider acts as an
 interface.
