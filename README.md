@@ -275,12 +275,12 @@ interface.
 Note 8: From JAVA 1.9; An interface can have public, private, default, static members.
 
 
-			  SERVICE REQUIREMENTS
-			   | --- m1(); --- |
-			   | --- m2(); --- |
-		Client---->| --- m3(); --- |<---- Service Provider (interface implementor)
-			   |    .      --- |
-			   |    .      --- |
+			  	SERVICE REQUIREMENTS
+			   	| --- m1(); --- |
+			   	| --- m2(); --- |
+	    	 Client ------> | --- m3(); --- | <------ Service Provider (interface implementor)
+			   	|     .     --- |
+			   	|     .     --- |
 			   
 			  
 ## Data Hiding (OOPS) (3:47:40)
